@@ -12,3 +12,7 @@ Relative Path Resolution
 ls Reading Comprehension
 	Assuming a directory structure as in the above figure, if pwd displays /Users/backup, and -r tells ls to display things in reverse order, what command will display: pnas_sub/ pnas_final/ original/
 		4. Either #2 or #3 above, but not #1
+
+Exploring More ls Arguments
+	What does the command ls do when used with the -l and -h arguments?
+		ls -l shows ls output in long-listing format (with file sizes and modification times). ls -h shows the ls file size output in "human readable" format.
