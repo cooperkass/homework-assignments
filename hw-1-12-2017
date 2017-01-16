@@ -1,0 +1,6 @@
+Absolute vs Relative Paths
+	Starting from /Users/amanda/data/, which commands could Amanda use to navigate to her home directory /Users/amanda?
+		5. cd ~
+		7. cd ~/data/..
+		8. cd
+		9. cd ..
