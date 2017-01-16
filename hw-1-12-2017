@@ -4,3 +4,7 @@ Absolute vs Relative Paths
 		7. cd ~/data/..
 		8. cd
 		9. cd ..
+
+Relative Path Resolution
+	Using the filesystem diagram shown, if pwd displays /Users/thing, what will ls ../backup display?
+		4. original pnas_final pnas_sub
