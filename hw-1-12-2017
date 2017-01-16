@@ -16,3 +16,7 @@ ls Reading Comprehension
 Exploring More ls Arguments
 	What does the command ls do when used with the -l and -h arguments?
 		ls -l shows ls output in long-listing format (with file sizes and modification times). ls -h shows the ls file size output in "human readable" format.
+
+Listing Recursively and By Time
+	In what order does ls -R -t display things?
+		Directories are in alphabetical order on respective levels, and the sub-directories (files, directories, etc.) are ordered by modification time within each directory.
