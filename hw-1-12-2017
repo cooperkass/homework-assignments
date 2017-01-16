@@ -8,3 +8,7 @@ Absolute vs Relative Paths
 Relative Path Resolution
 	Using the filesystem diagram shown, if pwd displays /Users/thing, what will ls ../backup display?
 		4. original pnas_final pnas_sub
+
+ls Reading Comprehension
+	Assuming a directory structure as in the above figure, if pwd displays /Users/backup, and -r tells ls to display things in reverse order, what command will display: pnas_sub/ pnas_final/ original/
+		4. Either #2 or #3 above, but not #1
