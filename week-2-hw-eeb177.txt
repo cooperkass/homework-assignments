@@ -1366,3 +1366,32 @@ Allesina 1.7.3
   309  history 21 >> ~/Desktop/eeb-177/homework-assignments/week-2-hw-eeb177.txt
 
 Question 4: 
+Cetartiodactyla Balaenidae Eubalaena Eubalaena glacialis 22999999.91 (Eubalaena glacialis is the 10th largest species in the database.)
+
+Chiroptera Vespertilionidae Pipistrellus Pipistrellus nanulus 2.51 (Pipistrellus nanulus is the 10th smallest species in the database.)
+
+Question 5:
+Allessina 1.7.4
+  326  wc -l BodyM.csv 
+  327  grep Vombatidae BodyM.csv 
+  328  grep -c Vombatidae BodyM.csv 
+  329  grep Bos BodyM.csv 
+  330  grep -w Bos BodyM.csv 
+  331  grep -i Bos BodyM.csv 
+  332  grep -B 2 -A 2 "Gorilla gorilla" BodyM.csv 
+  333  grep -n "Gorilla gorilla" BodyM.csv 
+  334  grep Gorilla BodyM.csv | grep -v gorilla
+  335  grep -w "Gorilla\
+  336  grep -w "Gorilla\|Pan" BodyM.csv 
+  337  cd ../
+  338  grep -r "Gorilla" data/
+  339  history 20 >> ~/Desktop/eeb-177/homework-assignments/week-2-hw-eeb177.txt
+
+Question 6:
+Allessina 1.11.1
+	2. The Marra2014_data.fasta has a size of 566026 bytes.
+	4. 16 contigs are classified as isogroup00036.
+	6. There are 43 unique isogroups in the file.
+	7. contig 00329 has the highest number of reads (995 reads).
+
+Question 7:
