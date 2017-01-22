@@ -1395,3 +1395,29 @@ Allessina 1.11.1
 	7. contig 00329 has the highest number of reads (995 reads).
 
 Question 7:
+  261  for filename in *.txt; do cp $filename ../../sandbox/temp/edited-$filename; done
+
+Question 8:
+	Using grep
+		3. grep -w "of" haiku.txt
+
+	find Pipeline Reading Comprehension
+		The shell runs the command inside $(), which produces the file names ending in .dat. Then, wc -l counts the number of lines in each file. Then, sort -n sorts the number of lines in each file numerically.
+
+	Matching and Subtracting
+		1, 2, AND 3
+
+	Tracking a Species
+		cut -d , -f 1,3
+		I have no idea how to do this...
+
+	Little Women
+		grep -c Amy LittleWomen.txt
+		grep -c Jo LittleWomen.txt
+		grep -c Meg LittleWomen.txt
+		grep -c Beth LIttleWomen.txt
+	Can't figure out this loop either...
+
+	Finding Files with Different Properties
+		find ./ -type f -mtime -1 -user ahmed
+  
